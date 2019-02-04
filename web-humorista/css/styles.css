@@ -1,0 +1,402 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.perro1, .perro2, .perro3{
+    width: 250px;
+    height: 250px;;
+}
+
+form input[type="text"]{
+    opacity: 1;
+}
+
+form input[type="text"]{
+    transition-property: opacity;
+    transition-duration: 2s; /* This will happen after the hover state and can also be used for consistency on the overall experience */
+    opacity: 1;
+}
+
+form input[type="text"]:hover{
+    opacity: .4;
+    transition-duration: .3s;
+    transition-delay: .1s;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    z-index: 9999;  /*Sirve para evitar que una imagen, por ejemplo, se sobreponga el menu fixed*/
+}
+
+.sticky{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.sticky + #header{
+    padding-bottom: 20px;
+}
+
+#logo{
+    position: relative;
+    display: inline-block;
+    bottom: 30%;
+    padding-left: 22%;
+    width: 17%;
+}
+
+#logo_img{
+    position: fixed;
+    margin-top: -75px;
+    height: 75px;
+    width: 100px;
+}
+
+#menu{
+    display: inline-block;
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+#menu ul{
+    line-height: 50px;
+    width: 130%;
+}
+
+#menu ul li{
+    display: block;
+    text-align: justify;
+    float: right;
+    font-family: Helvetica, Arial;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#menu ul li a{
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+}
+
+#caja-info{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#caja-info img{
+    padding-left: 20%;
+    width: 1024px;
+    height: 114px;
+}
+
+#caja_information{
+    background: black;
+    display: inline-block;
+}
+
+#caja_perro-negro{
+    display: inline-block;
+    width: 50%;
+}
+
+#caja_perro-negro img{
+    display: inline-block;
+    padding-left: 20px; 
+    height: 542px;
+    width: 926px;
+}
+
+#caja_paragraph{
+    width: 50%;
+    float: right;
+}
+
+#caja_information p{
+    display: inline-block;
+    font-family: Helvetica, Arial;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    color: white;
+    padding-top: 20px;
+    padding-left: 0%;
+    padding-right: 40%;
+    padding-bottom: 20px;
+}
+
+#caja_titulo-videos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+} 
+
+#caja_titulo-videos img{
+    display: block;
+    width: 448px;
+    height: 135px;
+    padding-top: 20px;
+    padding-left: 34%;
+}
+
+#cajas-varias{
+    background: black;
+}
+
+#cajas-varias iframe{
+    height: 350px;
+    width: 500px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+    border: black;
+}
+
+#cajas-varias img{
+    height: 500px;
+    width: 500px;
+}
+
+#caja_titulo-fotos{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#caja_titulo-fotos img{
+    display: block;
+    width: 448px;
+    height: 135px;
+    padding-top: 20px;
+    padding-left: 34%;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 450px !important;
+}
+
+#slider{
+    padding-left: 115px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+#perro-corbata{
+    float: right;
+    width: 300px;
+    height: 456px;
+    padding-right: 24%;
+    margin-top: -29%;
+}
+
+#shows{
+    background: black;
+    padding-bottom: 80px;
+}
+
+#caja_titulo-shows{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 70px;
+}
+
+#caja_titulo-shows img{
+    display: block;
+    width: 522px;
+    height: 156px;
+    padding-top: 20px;
+    padding-left: 34%;
+}
+
+#caja-shows{
+    padding-left: 24%;
+}
+
+.perro1, .perro2, .perro3{
+    margin-right: 60px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+#caja_logos-empresas{
+    margin-top: 7%;
+    margin-left: 28%;
+    margin-bottom: 70px;
+}
+
+#caja_titulo-empresas img{
+    display: block;
+    width: 653px;
+    height: 132px;
+    padding-top: 70px;
+    padding-left: 33%;   
+}
+
+#caja-logo{
+    background: black;
+}
+
+#caja-logo img{
+    width: 25%;
+    margin-left: 35%;
+}
+
+#sub-contact{
+    padding-left: 25%;
+}
+
+h1{
+    font-family: Helvetica, Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 25px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+form input[type= "text"]{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    color: #999;
+    background: #eee;
+    width: 20%;
+    border: none;
+}
+
+#input-message{
+    width: 620px;
+    padding-bottom: 8%;
+}
+
+#input_valid{
+    font-family: Helvetica, Arial;
+    font-size: 20px;
+    color: rgb(0, 140, 255);
+    border: 3px solid rgb(0, 140, 255);
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left: 547px;
+}
+
+#caja_example-paragraph p{
+    color: #808080;
+    margin-top: 40px;
+    margin-left: 175px;
+    font-family: Helvetica, Arial;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+#caja_example-paragraph span{
+    margin-left: 60px;
+}
+
+#mapache img{
+    margin-top: -31%;
+    margin-left: 46%;
+}
+
+#google-image{
+    margin-bottom: 24px;
+}
+
+#google-image img{
+    width: 80px;
+    height: 80px;
+    margin-left: 290px;
+}
+
+#pie-de-pagina{
+    background: black;
+}
+
+#caja_grupo-perros{
+    margin-left: 700px;
+}
+
+#caja_grupo-perros img{
+    width: 500px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+#caja_logos{
+    position: relative; /*Importante para dar posición manual a objetos dentro*/
+    display: inline-block;
+}
+
+#caja_dog-logo{
+    position: absolute;
+    margin-left: 600%;
+    margin-top: 10px;
+}
+
+#caja_dog-logo span{
+    color: #666;
+    transition: color 1s;
+}
+
+#caja_dog-logo span:hover{
+    color: #3385ff;
+    cursor: pointer;
+}
+
+#caja_twitter-logo{
+    position: absolute;
+    margin-left: 651%;
+    margin-top: 10px;
+}
+
+#caja_twitter-logo span{
+    color: #666;
+    transition: color 1s;
+    margin-left: -22px;
+}
+
+#caja_twitter-logo span:hover{
+    color: #3385ff;
+    cursor: pointer;
+}
+
+#caja-firma{
+    color: #666;
+    background: #0d0d0d;
+    width: 669%;
+    height: 40px;
+    padding-left: 166%;
+    padding-top: 13px;
+}
+
+#caja-firma span{
+    font-family: Helvetica, Arial;
+    font-size: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+#form_contact ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#form_contact div{
+    margin-top: 20px;
+}
+
+#form_contact li{
+    color: red;
+}
